@@ -10,10 +10,10 @@ namespace variablesanddatatypes
             //ctrl kc to comment, ku to uncomment
 
 
-            //Console.WriteLine("What is your name?");
-            //string yourname = Console.ReadLine();
-            //Console.WriteLine("Your name is: " + yourname);
-            //Console.ReadLine();
+            Console.WriteLine("What is your name?");
+            string yourname = Console.ReadLine();
+            Console.WriteLine("Your name is: " + yourname);
+            Console.ReadLine();
 
             //Casting 
 
@@ -26,24 +26,24 @@ namespace variablesanddatatypes
             //Console.ReadLine();
 
             //Data Types
-            bool isStudying = false;
-            byte hoursWorked = 42;
-            sbyte currentTemp = -23;
-            char questionMark = '\u2103'; //unicode
-            decimal moneyInBank = 100.5m; //have to put m for decimals (Really only used for finacial transactions
-            double heightInCentimeters = 211.30202092; //Any number 15 -16 digits in length
-            float secondsLeft = 2.62f; //(f) for float
-            short temperatureOnMars = -341;
-            string myName = "Zach";
+            //bool isstudying = false;
+            //byte hoursworked = 42;
+            //sbyte currenttemp = -23;
+            //char questionmark = '\u2103'; //unicode
+            //decimal moneyinbank = 100.5m; //have to put m for decimals (really only used for finacial transactions
+            //double heightincentimeters = 211.30202092; //any number 15 -16 digits in length
+            //float secondsleft = 2.62f; //(f) for float
+            //short temperatureonmars = -341;
+            //string myname = "zach";
 
-            //Casting
-            int currentAge = 22;
-            string yearsOld = currentAge.ToString();
+            ////casting
+            //int currentage = 22;
+            //string yearsold = currentage.tostring();
 
-            bool isRaining = true;
-            string rainingStatus = Convert.ToString(isRaining);
-            Console.WriteLine(rainingStatus);
-            Console.ReadLine();
+            //bool israining = true;
+            //string rainingstatus = convert.tostring(israining);
+            //console.writeline(rainingstatus);
+            //console.readline();
 
 
 
