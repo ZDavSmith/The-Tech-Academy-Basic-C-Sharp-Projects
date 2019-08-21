@@ -1,0 +1,2 @@
+﻿The target process exited without raising a CoreCLR started event. Ensure that the target process is configured to use .NET Core. This may be expected if the target process did not run on .NET Core.
+The program '[7596] dotnet.exe' has exited with code -2147450751 (0x80008081).
